@@ -52,6 +52,12 @@
           "store_path": "/nix/store/f055dmaqf8japp7nqww78zp3g37j5qfs-maven-3.9.11"
         }
       }
+    },
+    "openjdk17@latest": {
+      "last_modified": "2023-02-24T09:01:09Z",
+      "resolved": "github:NixOS/nixpkgs/7d0ed7f2e5aea07ab22ccb338d27fbe347ed2f11#openjdk17",
+      "source": "devbox-search",
+      "version": "17.0.5+8"
     }
   }
 }
