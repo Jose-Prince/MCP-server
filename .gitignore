@@ -1,24 +1,82 @@
-# Compiled class file
-*.class
+# Archivos de bytecode de Python
+__pycache__/
+*.py[cod]
+*$py.class
 
-# Log file
+# Entornos virtuales
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+
+# Archivos de configuración de IDEs y editores
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Archivos de dependencias compiladas
+*.so
+*.pyd
+*.dll
+
+# Distribuciones / empaquetado
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Archivos de test/coverage
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
 *.log
+.tox/
+.nox/
+.pytest_cache/
+hypothesis/
 
-# BlueJ files
-*.ctxt
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
+# Archivos creados por herramientas de documentación
+doc/_build/
+docs/_build/
+site/
 
-# Package Files #
-*.jar
-*.war
-*.nar
-*.ear
-*.zip
-*.tar.gz
-*.rar
+# Archivos de entorno/variables locales
+.env
+.env.*
+*.env
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
-replay_pid*
+# Archivos de bases de datos temporales
+*.sqlite3
+*.db
+
+# Archivos de profiling
+*.prof
+*.pstats
+*.pid
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
