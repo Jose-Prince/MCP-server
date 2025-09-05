@@ -127,7 +127,6 @@ for idx, appid in enumerate(games.keys()):
     print(f"[{idx}] {name} agregado ✔")
     time.sleep(1)  # evitar rate limit
 
-# 🔹 Guardar en CSV
 with open("games_dataset.csv", "w", newline="", encoding="utf-8") as f:
     writer = csv.writer(f, delimiter=";")
     writer.writerow([

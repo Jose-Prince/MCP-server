@@ -1,3 +1,6 @@
 steamspypi
 requests
 dotenv
+pandas
+scikit-learn
+numpy
