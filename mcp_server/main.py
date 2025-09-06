@@ -1,8 +1,8 @@
-from server import mcp
+import asyncio
+import tools.predict_tool
+from server import start_server
 
-def main():
-    print("Hello from mcp-server!")
-
+import tools.predict_tool
 
 if __name__ == "__main__":
-    mcp.run()
+    asyncio.run(start_server())
