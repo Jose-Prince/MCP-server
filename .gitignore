@@ -79,6 +79,3 @@ site/
 # Archivos del sistema operativo
 .DS_Store
 Thumbs.db
-
-# Dataset
-*.csv

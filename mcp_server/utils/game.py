@@ -87,7 +87,7 @@ def create_gameList():
     games = steamspypi.download(params)
 
     for idx, appid in enumerate(games.keys()):
-        if idx >= 5:
+        if idx >= 1000:
             break
 
         steamspy_data = get_steamspy(appid)
