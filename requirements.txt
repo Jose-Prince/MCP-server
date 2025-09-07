@@ -4,3 +4,8 @@ dotenv
 pandas
 scikit-learn
 numpy
+mcp[cli]
+pandas
+pyarrow
+websockets
+fastmcp
